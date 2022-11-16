@@ -1,0 +1,34 @@
+// YOUR NAME HERE
+// Participation Lab4 
+// NegativeNumberException header file
+
+#pragma once
+#include <string>
+#define s std::
+#include "Rectangle.h"
+
+
+class negativeNumber
+{
+public:
+	
+
+
+	negativeNumber()
+	{
+		s cout << "This is a negative number \n";\
+	}
+
+
+	negativeNumber(s string message)
+	{
+		s cout << "The message is " << message<<"\n";
+	}
+	void setMessage(s string a) 
+	{
+		message = a;
+	}
+
+	s string message;
+
+};
